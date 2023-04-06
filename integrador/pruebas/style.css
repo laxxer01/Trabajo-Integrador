@@ -1,0 +1,25 @@
+
+.container-items{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    width: 100%;
+    background-color: #00000088;
+}
+body{
+    background-image: url(/integrador/imagenes/Background.jpg);;
+
+}
+.logowhite{
+    width: 70px;
+    height: 70px;
+}
+.btnp1{
+   background-color: #00000033; 
+   border-left-color: #ceae4e;
+   border-right-color: #ceae4e;
+   color: aliceblue;
+   height: 55px;
+   width: 150px;
+   cursor: pointer;
+}
