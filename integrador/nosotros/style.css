@@ -1,5 +1,5 @@
 body{
-    background-image: url(/integrador/imagenes/Background.jpg);
+    background-image: url(/integrador/pruebas/descarga.jpg);
 }
 .container-items{
     display: flex;
@@ -22,15 +22,36 @@ body{
    width: 150px;
    cursor: pointer;
 }
+.containeritemsn{
+    display: flex;
+    flex-flow: column;
+    margin-top: 10%;
+    margin-left: 1%;
+    background-color: #00000088;
+    width: 40%;
 
-.h1_titulo_menu{
-    text-align: center;
+}
+.h1sobre{
+    color: #eddcab;
+}
+.itemp{
+    color:aliceblue;
+}
+.containerf{
+    display: flex;
+    background-color:#000000b0;
+    margin-top: 450px;
+    width: 100%;
+    height: 200px;
+    align-items:center;
+    flex-flow: column;
+}
+.pwhite{
     color: aliceblue;
-    padding: 20px;
 }
-.h2_titulo_menu{
-    text-align: center;
-    color:rgb(212, 212, 212);
-    padding: 20px;
+.redes{
+    width: 40px;
+    height: 40px;
+    background-color: #ceae4e;
+    border-radius: 12px;
 }
-
