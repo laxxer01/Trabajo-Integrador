@@ -1,5 +1,11 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
 body{
     background-image: url(/integrador/imagenes/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .logowhite{
@@ -44,3 +50,4 @@ body{
     color:rgb(212, 212, 212);
     padding: 20px;
 }
+
