@@ -51,5 +51,14 @@ body{
     background-color: #ceae4e;
     border-radius: 12px;
 }
+.container-card{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+.itemcard{
+    margin: 20px 10px 10px 0
+}
 
 
