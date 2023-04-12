@@ -1,5 +1,9 @@
+/* *{
+    font-family: 'Inter', sans-serif;
+} */
 body{
-    background-image: url(/integrador/pruebas/descarga.jpg);
+    background-image: url(/integrador/imagenes/Sobre\ Nosotros\ Background.svg);
+    background-size:cover;
 }
 .container-items{
     display: flex;
@@ -10,17 +14,27 @@ body{
 }
 
 .logowhite{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0,0,0,0);
+    margin-right: 25px;
+    margin-left: 25px;
 }
+
 .btnp1{
-   background-color: #00000033; 
-   border-left-color: #ceae4e;
-   border-right-color: #ceae4e;
+    font-weight:700;
+    font-size:large;
+   text-decoration: none;
+   text-align:center;
    color: aliceblue;
-   height: 55px;
-   width: 150px;
-   cursor: pointer;
+   margin-left: 3%;
+   margin-right: 3%;
+   font-family: 'Inter', sans-serif;
+}
+.div-head{
+    height: 50px;
+    width: 3px;
+    background-color: #ceae4e
 }
 .containeritemsn{
     display: flex;
@@ -33,9 +47,13 @@ body{
 }
 .h1sobre{
     color: #eddcab;
+    font-family: 'Jomolhari', serif;
+    font-weight: 300;
 }
 .itemp{
     color:aliceblue;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
 }
 .containerf{
     display: flex;

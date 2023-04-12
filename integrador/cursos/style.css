@@ -1,5 +1,9 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
 body{
-    background-image: url(/integrador/imagenes/Background.jpg);
+    background-image: url(/integrador/imagenes/Cursos\ Background.jpg);
+    background-size: cover;
 }
 .container-items{
     display: flex;
@@ -9,20 +13,36 @@ body{
     background-color: #00000088;
 }
 
-.logowhite{
-    width: 70px;
+.container-items{
+    display: flex;
+    justify-content: space-around;
     height: 70px;
-}
-.btnp1{
-   background-color: #00000033; 
-   border-left-color: #ceae4e;
-   border-right-color: #ceae4e;
-   color: aliceblue;
-   height: 55px;
-   width: 150px;
-   cursor: pointer;
+    width: 100%;
+    background-color: #00000088;
 }
 
+.logowhite{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0,0,0,0);
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.btnp1{
+    font-weight:700;
+    font-size:large;
+   text-decoration: none;
+   text-align:center;
+   color: aliceblue;
+   margin-left: 3%;
+   margin-right: 3%;
+}
+.div-head{
+    height: 50px;
+    width: 3px;
+    background-color: #ceae4e
+}
 .h1_titulo_menu{
     text-align: center;
     color: aliceblue;
